@@ -18,9 +18,12 @@ p {
     font-size: 14px;
     font-weight: normal;
 }
+.info {
+    color: white;
+}
 #nav {
     font-size: 18px;
 }
-.info {
-    color: white;
+#sub-footer {
+    background-color: dimgray;
 }
