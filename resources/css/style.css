@@ -14,6 +14,9 @@ h2 {
 h3 {
     font-size: 23px;
 }
+nav {
+    font-size: 18px;
+}
 p {
     font-size: 14px;
     font-weight: normal;
@@ -21,8 +24,8 @@ p {
 .info {
     color: white;
 }
-#nav {
-    font-size: 18px;
+#home {
+    background-image: url("images.flatiron.png");
 }
 #sub-footer {
     background-color: dimgray;
