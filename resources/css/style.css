@@ -23,6 +23,9 @@ p {
     font-size: 14px;
     font-weight: normal;
 }
+.subf {
+    font-size: 18px;
+}
 .info,
 a {
     color: white;
@@ -34,4 +37,5 @@ a {
 }
 #sub-footer {
     background-color: dimgray;
+    text-align: left;
 }
