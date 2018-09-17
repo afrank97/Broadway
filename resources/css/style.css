@@ -14,18 +14,23 @@ h2 {
 h3 {
     font-size: 23px;
 }
-nav {
+nav a {
+    display: block;
+    padding: 6px;
     font-size: 18px;
 }
 p {
     font-size: 14px;
     font-weight: normal;
 }
-.info {
+.info,
+a {
     color: white;
 }
-#home {
-    background-image: url("images.flatiron.png");
+#home,
+#DNY {
+    background-image: url("../images/flatiron.png");
+    background-size: cover;
 }
 #sub-footer {
     background-color: dimgray;
