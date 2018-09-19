@@ -3,7 +3,6 @@ body {
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    
 }
 h1 {
     font-size: 70px;
@@ -26,16 +25,26 @@ p {
 .subf {
     font-size: 18px;
 }
-.info,
+header,
+footer,
+#DNY,
 a {
     color: white;
 }
-#home,
+header,
 #DNY {
     background-image: url("../images/flatiron.png");
     background-size: cover;
 }
-#sub-footer {
+footer {
     background-color: dimgray;
     text-align: left;
+    overflow: auto;
+}
+.copyright,
+.subf {
+    float: left;
+}
+.copyright {
+    font-size: 11px;
 }
